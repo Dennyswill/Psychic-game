@@ -16,6 +16,7 @@ document.onkeypress = function (event){
 if(compG==playerG){
     wins++;
     guessed = [];
+    left = 10;
     alert("You Win!");
     update();
 } else {
